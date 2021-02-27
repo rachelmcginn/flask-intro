@@ -39,6 +39,13 @@ def say_hello():
           What's your name? <input type="text" name="person">
           <input type="submit" value="Submit">
         </form>
+		<form>
+			Which adjective best describes you?
+			<select name="compliment">
+				<option value="cool">Cool</option>
+				<option value="awesome">Awesome</option>
+				<option value="brilliant">Brilliant</option>
+		</form> 
       </body>
     </html>
     """
